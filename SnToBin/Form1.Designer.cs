@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.txtSn = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labSn = new System.Windows.Forms.Label();
             this.labMac = new System.Windows.Forms.Label();
             this.txtMac = new System.Windows.Forms.TextBox();
             this.txtLog = new System.Windows.Forms.TextBox();
@@ -39,42 +39,49 @@
             // 
             // txtSn
             // 
-            this.txtSn.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtSn.Location = new System.Drawing.Point(330, 94);
+            this.txtSn.BackColor = System.Drawing.Color.White;
+            this.txtSn.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtSn.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtSn.Location = new System.Drawing.Point(220, 94);
             this.txtSn.Multiline = true;
             this.txtSn.Name = "txtSn";
             this.txtSn.ReadOnly = true;
-            this.txtSn.Size = new System.Drawing.Size(398, 41);
+            this.txtSn.Size = new System.Drawing.Size(508, 56);
             this.txtSn.TabIndex = 1;
             this.txtSn.TextChanged += new System.EventHandler(this.textSN_TextChanged);
             // 
-            // label1
+            // labSn
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(225, 97);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "分配SN:";
+            this.labSn.AutoSize = true;
+            this.labSn.BackColor = System.Drawing.Color.White;
+            this.labSn.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labSn.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labSn.Location = new System.Drawing.Point(241, 103);
+            this.labSn.Name = "labSn";
+            this.labSn.Size = new System.Drawing.Size(131, 38);
+            this.labSn.TabIndex = 1;
+            this.labSn.Text = "分配SN";
             // 
             // labMac
             // 
             this.labMac.AutoSize = true;
-            this.labMac.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labMac.Location = new System.Drawing.Point(212, 37);
+            this.labMac.BackColor = System.Drawing.Color.White;
+            this.labMac.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labMac.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labMac.Location = new System.Drawing.Point(241, 43);
             this.labMac.Name = "labMac";
-            this.labMac.Size = new System.Drawing.Size(112, 24);
+            this.labMac.Size = new System.Drawing.Size(150, 38);
             this.labMac.TabIndex = 5;
-            this.labMac.Text = "标签MAC:";
+            this.labMac.Text = "标签MAC";
             // 
             // txtMac
             // 
-            this.txtMac.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtMac.Location = new System.Drawing.Point(330, 34);
+            this.txtMac.BackColor = System.Drawing.Color.White;
+            this.txtMac.Font = new System.Drawing.Font("宋体", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtMac.Location = new System.Drawing.Point(220, 34);
             this.txtMac.Multiline = true;
             this.txtMac.Name = "txtMac";
-            this.txtMac.Size = new System.Drawing.Size(398, 41);
+            this.txtMac.Size = new System.Drawing.Size(508, 56);
             this.txtMac.TabIndex = 0;
             this.txtMac.TextChanged += new System.EventHandler(this.txtMac_TextChanged);
             // 
@@ -98,8 +105,8 @@
             // 
             // resultCounter1
             // 
-            //this.resultCounter1.Cnt_faild = 0;
-            //this.resultCounter1.Cnt_pass = 0;
+            this.resultCounter1.Cnt_faild = 0;
+            this.resultCounter1.Cnt_pass = 0;
             this.resultCounter1.Location = new System.Drawing.Point(11, 181);
             this.resultCounter1.Name = "resultCounter1";
             this.resultCounter1.ResultPath = "./SetUp.ini";
@@ -116,7 +123,7 @@
             this.Controls.Add(this.txtLog);
             this.Controls.Add(this.labMac);
             this.Controls.Add(this.txtMac);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labSn);
             this.Controls.Add(this.txtSn);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -129,7 +136,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtSn;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labSn;
         private System.Windows.Forms.Label labMac;
         private System.Windows.Forms.TextBox txtMac;
         private System.Windows.Forms.TextBox txtLog;

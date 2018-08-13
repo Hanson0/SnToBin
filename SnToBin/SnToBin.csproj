@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CmdProcess.cs" />
+    <Compile Include="Common.cs" />
     <Compile Include="ControlWidget.cs" />
     <Compile Include="Environment\ConfigInfo.cs" />
     <Compile Include="Environment\ProductionInfo.cs" />
