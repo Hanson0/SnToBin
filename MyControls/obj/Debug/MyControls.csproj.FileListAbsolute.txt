@@ -1,0 +1,7 @@
+E:\Study\VSTest\SnToBin\MyControls\bin\Debug\MyControls.dll
+E:\Study\VSTest\SnToBin\MyControls\bin\Debug\MyControls.pdb
+E:\Study\VSTest\SnToBin\MyControls\obj\Debug\MyControls.ResultCounter.resources
+E:\Study\VSTest\SnToBin\MyControls\obj\Debug\MyControls.csproj.GenerateResource.Cache
+E:\Study\VSTest\SnToBin\MyControls\obj\Debug\MyControls.dll
+E:\Study\VSTest\SnToBin\MyControls\obj\Debug\MyControls.pdb
+E:\Study\VSTest\SnToBin\MyControls\obj\Debug\MyControls.StopWatcher.resources

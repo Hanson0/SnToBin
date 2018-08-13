@@ -1,0 +1,8 @@
+E:\Study\VSTest\SnToBin\SnToBin\bin\Debug\SnToBin.exe.config
+E:\Study\VSTest\SnToBin\SnToBin\bin\Debug\SnToBin.exe
+E:\Study\VSTest\SnToBin\SnToBin\bin\Debug\SnToBin.pdb
+E:\Study\VSTest\SnToBin\SnToBin\obj\Debug\SnToBin.Form1.resources
+E:\Study\VSTest\SnToBin\SnToBin\obj\Debug\SnToBin.Properties.Resources.resources
+E:\Study\VSTest\SnToBin\SnToBin\obj\Debug\SnToBin.csproj.GenerateResource.Cache
+E:\Study\VSTest\SnToBin\SnToBin\obj\Debug\SnToBin.exe
+E:\Study\VSTest\SnToBin\SnToBin\obj\Debug\SnToBin.pdb
